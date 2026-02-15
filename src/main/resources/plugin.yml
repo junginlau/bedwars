@@ -1,5 +1,5 @@
-name: Bedwars
-version: 0.1.0-SNAPSHOT
+name: 1.20.1 Bedwars Plugin
+version: 0.1.0
 main: com.example.bedwars.BedwarsPlugin
 api-version: '1.20'
 author: YourName

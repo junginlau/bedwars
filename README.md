@@ -1,4 +1,4 @@
-# Bedwars Plugin (Paper 1.20.1)
+# 1.20.1 Bedwars Plugin (Paper 1.20.1)
 
 完整的起床战争插件，支持4队和8队模式，包含Hypixel风格的功能和多房间竞技场系统。
 
