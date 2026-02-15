@@ -1,0 +1,20 @@
+name: Bedwars
+version: 0.1.0-SNAPSHOT
+main: com.example.bedwars.BedwarsPlugin
+api-version: '1.20'
+author: YourName
+softdepend: [WorldEdit]
+commands:
+  bw:
+    description: Bedwars game command
+    usage: /bw <join|leave|start|stop|reload|gui|queue|quickjoin|arenas|queues|setlobby|language>
+  bwshop:
+    description: Open Bedwars shop
+    usage: /bwshop
+  bwstats:
+    description: View Bedwars statistics
+    usage: /bwstats [player|top <kills|beds|wins>]
+permissions:
+  bedwars.admin:
+    description: Allows admin commands
+    default: op

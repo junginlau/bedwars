@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.example.bedwars'
+version = '0.1.0-SNAPSHOT'
+
+def paperApiVersion = '1.20.1-R0.1-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://repo.papermc.io/repository/maven-public/' }
+    maven { url = 'https://maven.enginehub.org/repo/' }
+}
+
+dependencies {
+    compileOnly "io.papermc.paper:paper-api:${paperApiVersion}"
+    compileOnly 'com.sk89q.worldedit:worldedit-bukkit:7.2.15'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}

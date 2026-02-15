@@ -1,0 +1,325 @@
+# Bedwars 多语言配置文件 - 简体中文
+# 修改此文件后需重启服务器以加载更改
+
+# GUI 菜单标题
+gui:
+  maps: "Bedwars 地图"
+  map-editor: "地图编辑器: "
+  team-select: "队伍选择: "
+  team-editor: "队伍编辑器: "
+  generators: "生成器: "
+  modes: "游戏模式: "
+  lobby-npcs: "游戏大厅NPC"
+  leaderboard: "游戏大厅排行榜"
+  dummy-tester: "机器人测试"
+  language: "语言选择"
+
+# 地图列表菜单
+map-list:
+  create-map: "创建地图"
+  create-map-desc: "点击并输入名称"
+  lobby-npc: "游戏大厅NPC"
+  lobby-npc-desc: "游戏外NPC"
+  leaderboard: "游戏大厅排行榜"
+  leaderboard-desc: "全息图管理"
+  dummy-tester: "机器人测试"
+  dummy-tester-desc: "填充开始位置"
+  close: "关闭"
+
+# 地图编辑器菜单
+map-editor:
+  set-lobby: "设置游戏大厅出生点"
+  set-lobby-desc: "使用当前位置"
+  team-setup: "队伍设置"
+  team-setup-desc: "配置队伍位置"
+  generators: "生成器"
+  generators-desc: "管理中立生成器"
+  set-world: "设置世界"
+  set-world-desc: "使用当前世界"
+  arena-bounds: "地图边界"
+  arena-bounds-manual: "地图边界"
+  arena-bounds-manual-desc: "点击手动设置"
+  arena-bounds-set: "地图边界 ✓"
+  worldedit-select: "WorldEdit选区"
+  worldedit-select-desc: "使用 //wand 然后输入 'ok'"
+  mode-selector: "游戏模式选择"
+  mode-selector-desc: "左键: 4队 | 右键: 8队"
+  save: "保存"
+  save-desc: "写入文件"
+  set-active: "设置为活跃"
+  set-active-desc: "使用此地图"
+  rename-map: "重命名地图"
+  rename-map-desc: "输入新名称"
+  delete-map: "删除地图"
+  delete-map-desc: "移除地图文件"
+  back: "返回"
+
+# 队伍选择菜单
+team-select:
+  red: "红队"
+  blue: "蓝队"
+  green: "绿队"
+  yellow: "黄队"
+  aqua: "青队"
+  pink: "粉队"
+  purple: "紫队"
+  gray: "灰队"
+  white: "白队"
+
+# 队伍编辑器菜单
+team-editor:
+  set-spawn: "设置出生点"
+  set-spawn-desc: "使用当前位置"
+  set-bed: "设置床"
+  set-bed-desc: "站在床块上"
+  set-base-gen: "设置基地生成器"
+  set-base-gen-desc: "使用当前位置"
+  set-shop-npc: "设置商店NPC"
+  set-shop-npc-desc: "使用当前位置"
+  clear-spawn: "清除出生点"
+  clear-spawn-desc: "取消设置出生点"
+  clear-bed: "清除床"
+  clear-bed-desc: "取消设置床"
+  clear-gen: "清除生成器"
+  clear-gen-desc: "取消设置基地生成器"
+  clear-shop: "清除商店NPC"
+  clear-shop-desc: "取消设置商店NPC"
+  give-tools: "获得队伍工具"
+  give-tools-desc: "使用物品放置"
+
+# 生成器编辑器菜单
+generator-editor:
+  add-diamond: "添加钻石生成器"
+  add-diamond-desc: "使用当前块"
+  add-emerald: "添加绿宝石生成器"
+  add-emerald-desc: "使用当前块"
+  remove-diamond: "移除最近钻石"
+  remove-diamond-desc: "3格内"
+  remove-emerald: "移除最近绿宝石"
+  remove-emerald-desc: "3格内"
+  clear-diamonds: "清除所有钻石"
+  clear-diamonds-desc: "数量: "
+  clear-emeralds: "清除所有绿宝石"
+  clear-emeralds-desc: "数量: "
+  give-gen-tools: "获得生成器工具"
+  give-gen-tools-desc: "使用物品放置"
+
+# 模式编辑器菜单
+mode-editor:
+  solo: "单人"
+  solo-desc: " 玩家"
+  doubles: "双人"
+  doubles-desc: " 玩家"
+  squad: "队伍"
+  squad-desc: " 玩家"
+  enabled: "已启用"
+  disabled: "未启用"
+
+# NPC管理器菜单
+npc-manager:
+  add-npc: "添加NPC"
+  add-npc-desc: "在当前位置创建"
+  npc-actions: "左键: 移动 | 右键: 重命名 | Shift+点击: 删除"
+
+# NPC编辑器菜单
+npc-editor:
+  move: "传送NPC"
+  move-desc: "传送到你的位置"
+  rename: "重新命名"
+  rename-desc: "在聊天输入名称"
+  delete: "删除NPC"
+  delete-desc: "永久删除"
+  back: "返回"
+
+# 机器人测试菜单
+dummy-tester:
+  add-one: "添加 +1"
+  add-one-desc: "添加一个机器人"
+  add-four: "添加 +4"
+  add-four-desc: "添加四个机器人"
+  fill: "填充"
+  fill-desc: "填充到所需数量"
+  remove-one: "移除 -1"
+  remove-one-desc: "移除一个机器人"
+  clear: "清除"
+  clear-desc: "移除所有机器人"
+  status: "状态"
+  status-desc: "使用 /bw dummy list 查看详细信息"
+
+# 排行榜菜单
+leaderboard:
+  set-rotate: "设置旋转位置"
+  set-rotate-desc: "使用当前位置"
+  set-next-fixed: "设置下一个固定"
+  next: "下一个: "
+  next-category: "下一个分类"
+  next-category-desc: "现在旋转"
+  refresh: "刷新"
+  refresh-desc: "更新行"
+  remove: "移除"
+  remove-desc: "删除排行榜"
+  toggle-mode: "切换模式"
+  current: "当前: "
+  status: "状态"
+  rotate-enabled: "已启用"
+  rotate-disabled: "未设置"
+  fixed: "固定"
+  rotate-mode: "旋转"
+  fixed-mode: "固定"
+  rotate-label: "旋转"
+  fixed-label: "固定"
+  title: "大厅排行榜"
+  empty-slot: "后补空缺"
+  category:
+    kills: "击杀榜"
+    beds: "破坏床榜"
+    wins: "胜局榜"
+    streak: "连胜榜"
+
+# 语言选择菜单
+language-select:
+  title: "选择语言"
+  simplified: "简体中文"
+  traditional: "繁体中文"
+  english: "English"
+  changed: "语言已更改为"
+
+# 聊天命令消息
+command:
+  # 基础命令帮助
+  help:
+    title: "=== Bedwars 指令 ==="
+    queue: "加入排队"
+    quickjoin: "快速加入游戏"
+    arenas: "查看房间列表"
+    queues: "查看排队状态"
+    leave: "离开游戏/排队"
+    setup: "打开管理界面"
+    setlobby: "设置主大厅位置"
+    language: "更改游戏语言"
+  
+  # 权限消息
+  no-permission: "你没有权限执行此命令"
+  players-only: "只有玩家可以执行此命令"
+
+  # NPC消息
+  npc-created: "NPC 已在你的位置建立"
+  npc-deleted: "NPC 已删除"
+  npc-moved: "NPC 已传送到你的位置"
+  npc-rename-input: "请在聊天输入新的 NPC 名称"
+  npc-renamed: "NPC 已重新命名"
+  npc-not-found: "找不到 NPC"
+  
+  # 游戏消息
+  map-not-found: "找不到地图"
+  map-already-exists: "地图已存在"
+  map-created: "地图已创建"
+  map-deleted: "地图已删除"
+  map-renamed: "地图已重命名"
+  map-saved: "地图已保存"
+  map-reloaded: "地图已重载"
+  map-set-active: "地图已设置为活跃"
+  
+  # 位置设置
+  position-set: "位置已设置"
+  position-cleared: "位置已清除"
+  lobby-set: "游戏大厅已设置"
+  spawn-set: "出生点已设置"
+  spawn-cleared: "出生点已清除"
+  bed-set: "床已设置"
+  bed-cleared: "床已清除"
+  generator-set: "生成器已设置"
+  generator-cleared: "生成器已清除"
+  shop-npc-set: "商店NPC已设置"
+  shop-npc-cleared: "商店NPC已清除"
+
+  # 队伍设置
+  team-not-selected: "未选择队伍"
+  team-updated: "{team} {item} 已设置"
+  team-cleared: "{team} {item} 已清除"
+  team-tools-given: "已取得 {team} 的队伍设置道具"
+  team-item-spawn: "出生点"
+  team-item-bed: "床"
+  team-item-generator: "基地生成器"
+  team-item-shop: "商店NPC"
+  
+  # WorldEdit消息
+  use-worldedit-wand: "请使用木斧 (//wand) 选择地图区域"
+  worldedit-input-ok: "选择完成后，输入: ok"
+  worldedit-selection-get: "无法获取WorldEdit选区"
+  worldedit-selection-ensure: "请确保你已使用 //wand 并选择了两个点"
+  
+  # 边界设置
+  bounds-pos1: "第一个点已设置"
+  bounds-pos1-stand: "现在请站在地图的对角位置并输入"
+  bounds-pos2: "第二个点已设置"
+  bounds-set: "地图边界已设置"
+  bounds-mismatch: "地图配置丢失，请重试"
+  bounds-input: "输入方式"
+  bounds-error: "请输入 'pos2' 来设置第二个点，或输入 'cancel' 取消"
+  
+  # 模式选择
+  mode-4team: "已设置为 4队模式 (Squad)"
+  mode-8team: "已设置为 8队模式 (Solo)"
+  
+  # 地图管理
+  create-map-input: "请在聊天栏输入地图名称"
+  rename-map-input: "请在聊天栏输入新地图名称"
+  delete-map-input: "输入 DELETE 确认删除地图: "
+  
+  # 区域大小
+  region-size: "区域大小"
+  blocks: "方块"
+  auto-restore: "游戏结束后将自动恢复此区域内的方块"
+
+# 验证消息
+validation:
+  incomplete: "地图配置不完整:"
+  cannot-start: "地图配置不完整，无法开始游戏。"
+  missing-team: "缺少队伍配置: {team}"
+  spawn-missing: "{team} 未设置重生点"
+  bed-missing: "{team} 未设置床点"
+  generator-missing: "{team} 未设置基地资源点"
+  shop-missing: "{team} 未设置商店NPC"
+  diamond-min: "至少需要 {count} 个钻石资源点"
+  emerald-min: "至少需要 {count} 个绿宝石资源点"
+
+# 游戏消息
+game:
+  # 游戏状态
+  waiting: "等待中"
+  countdown: "游戏即将开始"
+  in-game: "游戏中"
+  ended: "游戏已结束"
+  
+  # 玩家消息
+  joined: "已加入游戏"
+  left: "已离开游戏"
+  team-full: "队伍已满"
+  
+  # 事件消息
+  bed-destroyed: "的床被破坏了!"
+  team-eliminated: "队伍已被消灭!"
+  sudden-death: "突然死亡已开始 - 所有床移除!"
+  game-over: "游戏结束!"
+  winner: "获胜队伍"
+  
+  # 连杀消息
+  killstreak-2: "2连杀!"
+  killstreak-5: "5连杀!"
+  killstreak-10: "10连杀!"
+  
+  # 升级消息
+  diamond-gen-upgrade: "钻石生成器已升级"
+  emerald-gen-upgrade: "绿宝石生成器已升级"
+
+# 列表和标题文本
+misc:
+  status: "状态"
+  active: "活跃"
+  click-to-edit: "点击编辑"
+  unknown: "未知"
+
+# 排队消息
+queue:
+  need-players: "房间还需 {count} 位玩家"

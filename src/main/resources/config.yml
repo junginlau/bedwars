@@ -1,0 +1,14 @@
+active-map: ""
+maps-folder: "maps"
+reconnect-window-seconds: 60
+sudden-death-seconds: 120
+
+# 主大厅出生点 (玩家退出游戏或游戏结束后回到此处)
+# 如果未设置，将使用主世界的出生点
+lobby-spawn:
+  world: "world"
+  x: 0.5
+  y: 65.0
+  z: 0.5
+  yaw: 0.0
+  pitch: 0.0

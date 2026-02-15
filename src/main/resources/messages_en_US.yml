@@ -1,0 +1,323 @@
+# Bedwars Multilingual Configuration File - English
+# Modify this file to change in-game messages. Restart server after changes.
+
+# GUI Menu Titles
+gui:
+  maps: "Bedwars Maps"
+  map-editor: "Map Editor: "
+  team-select: "Team Select: "
+  team-editor: "Team Editor: "
+  generators: "Generators: "
+  modes: "Game Modes: "
+  lobby-npcs: "Lobby NPCs"
+  leaderboard: "Lobby Leaderboard"
+  dummy-tester: "Dummy Tester"  language: "Language Select"
+# Map List Menu
+map-list:
+  create-map: "Create Map"
+  create-map-desc: "Click and type name"
+  lobby-npc: "Lobby NPC"
+  lobby-npc-desc: "Out-of-game NPC"
+  leaderboard: "Lobby Leaderboard"
+  leaderboard-desc: "Hologram manager"
+  dummy-tester: "Dummy Tester"
+  dummy-tester-desc: "Fill start slots"
+  close: "Close"
+
+# Map Editor Menu
+map-editor:
+  set-lobby: "Set Lobby Spawn"
+  set-lobby-desc: "Use current position"
+  team-setup: "Team Setup"
+  team-setup-desc: "Configure team points"
+  generators: "Generators"
+  generators-desc: "Manage mid generators"
+  set-world: "Set World"
+  set-world-desc: "Use current world"
+  arena-bounds: "Arena Bounds"
+  arena-bounds-manual: "Arena Bounds"
+  arena-bounds-manual-desc: "Click to set manually"
+  arena-bounds-set: "Arena Bounds ✓"
+  worldedit-select: "WorldEdit Select"
+  worldedit-select-desc: "Use //wand then type 'ok'"
+  mode-selector: "Mode Selector"
+  mode-selector-desc: "Left: 4-team | Right: 8-team"
+  save: "Save"
+  save-desc: "Write to file"
+  set-active: "Set Active"
+  set-active-desc: "Use this map"
+  rename-map: "Rename Map"
+  rename-map-desc: "Type new name"
+  delete-map: "Delete Map"
+  delete-map-desc: "Remove map file"
+  back: "Back"
+
+# Team Select Menu
+team-select:
+  red: "RED"
+  blue: "BLUE"
+  green: "GREEN"
+  yellow: "YELLOW"
+  aqua: "AQUA"
+  pink: "PINK"
+  purple: "PURPLE"
+  gray: "GRAY"
+  white: "WHITE"
+
+# Team Editor Menu
+team-editor:
+  set-spawn: "Set Spawn"
+  set-spawn-desc: "Use current position"
+  set-bed: "Set Bed"
+  set-bed-desc: "Stand on bed block"
+  set-base-gen: "Set Base Generator"
+  set-base-gen-desc: "Use current position"
+  set-shop-npc: "Set Shop NPC"
+  set-shop-npc-desc: "Use current position"
+  clear-spawn: "Clear Spawn"
+  clear-spawn-desc: "Unset spawn"
+  clear-bed: "Clear Bed"
+  clear-bed-desc: "Unset bed"
+  clear-gen: "Clear Generator"
+  clear-gen-desc: "Unset base generator"
+  clear-shop: "Clear Shop NPC"
+  clear-shop-desc: "Unset shop NPC"
+  give-tools: "Give Team Tools"
+  give-tools-desc: "Use items to place"
+
+# Generator Editor Menu
+generator-editor:
+  add-diamond: "Add Diamond"
+  add-diamond-desc: "Use current block"
+  add-emerald: "Add Emerald"
+  add-emerald-desc: "Use current block"
+  remove-diamond: "Remove Nearest Diamond"
+  remove-diamond-desc: "Within 3 blocks"
+  remove-emerald: "Remove Nearest Emerald"
+  remove-emerald-desc: "Within 3 blocks"
+  clear-diamonds: "Clear Diamonds"
+  clear-diamonds-desc: "Count: "
+  clear-emeralds: "Clear Emeralds"
+  clear-emeralds-desc: "Count: "
+  give-gen-tools: "Give Generator Tools"
+  give-gen-tools-desc: "Use items to place"
+
+# Mode Editor Menu
+mode-editor:
+  solo: "Solo"
+  solo-desc: " players"
+  doubles: "Doubles"
+  doubles-desc: " players"
+  squad: "Squad"
+  squad-desc: " players"
+  enabled: "Enabled"
+  disabled: "Disabled"
+
+# NPC Manager Menu
+npc-manager:
+  add-npc: "Add NPC"
+  add-npc-desc: "Create at your position"
+  npc-actions: "L-Click: Move | R-Click: Rename | Shift-Click: Delete"
+
+# NPC Editor Menu
+npc-editor:
+  move: "Teleport NPC"
+  move-desc: "Move to your position"
+  rename: "Rename"
+  rename-desc: "Type name in chat"
+  delete: "Delete NPC"
+  delete-desc: "Delete permanently"
+  back: "Back"
+
+# Dummy Tester Menu
+dummy-tester:
+  add-one: "Add +1"
+  add-one-desc: "Add one dummy"
+  add-four: "Add +4"
+  add-four-desc: "Add four dummies"
+  fill: "Fill"
+  fill-desc: "Fill to required"
+  remove-one: "Remove -1"
+  remove-one-desc: "Remove one dummy"
+  clear: "Clear"
+  clear-desc: "Remove all dummies"
+  status: "Status"
+  status-desc: "Use /bw dummy list for details"
+
+# Leaderboard Menu
+leaderboard:
+  set-rotate: "Set Rotate Location"
+  set-rotate-desc: "Use current position"
+  set-next-fixed: "Set Next Fixed"
+  next: "Next: "
+  next-category: "Next Category"
+  next-category-desc: "Rotate now"
+  refresh: "Refresh"
+  refresh-desc: "Update lines"
+  remove: "Remove"
+  remove-desc: "Delete leaderboard"
+  toggle-mode: "Toggle Mode"
+  current: "Current: "
+  status: "Status"
+  rotate-enabled: "Enabled"
+  rotate-disabled: "Not set"
+  fixed: "Fixed"
+  rotate-mode: "Rotate"
+  fixed-mode: "Fixed"
+  rotate-label: "Rotate"
+  fixed-label: "Fixed"
+  title: "Lobby Leaderboard"
+  empty-slot: "Open Slot"
+  category:
+    kills: "Kills"
+    beds: "Beds Broken"
+    wins: "Wins"
+    streak: "Win Streaks"
+
+# Language Select Menu
+language-select:
+  title: "Select Language"
+  simplified: "Simplified Chinese"
+  traditional: "Traditional Chinese"
+  english: "English"
+  changed: "Language changed to"
+
+# Chat Command Messages
+command:
+  # Basic command help
+  help:
+    title: "=== Bedwars Commands ==="
+    queue: "Join queue"
+    quickjoin: "Quick join game"
+    arenas: "List all arenas"
+    queues: "List all queues"
+    leave: "Leave game/queue"
+    setup: "Open admin panel"
+    setlobby: "Set main lobby"
+    language: "Change game language"
+  
+  # Permission messages
+  no-permission: "No permission."
+  players-only: "Players only."
+
+  # NPC messages
+  npc-created: "NPC created at your location."
+  npc-deleted: "NPC deleted."
+  npc-moved: "NPC moved to your position."
+  npc-rename-input: "Type the new NPC name in chat."
+  npc-renamed: "NPC renamed."
+  npc-not-found: "NPC not found."
+  
+  # Game messages
+  map-not-found: "Map not found."
+  map-already-exists: "Map already exists."
+  map-created: "Map created."
+  map-deleted: "Map deleted."
+  map-renamed: "Map renamed."
+  map-saved: "Map saved."
+  map-reloaded: "Map reloaded."
+  map-set-active: "Map set as active."
+  
+  # Position setup
+  position-set: "Position set."
+  position-cleared: "Position cleared."
+  lobby-set: "Lobby set."
+  spawn-set: "Spawn set."
+  spawn-cleared: "Spawn cleared."
+  bed-set: "Bed set."
+  bed-cleared: "Bed cleared."
+  generator-set: "Generator set."
+  generator-cleared: "Generator cleared."
+  shop-npc-set: "Shop NPC set."
+  shop-npc-cleared: "Shop NPC cleared."
+
+  # Team setup
+  team-not-selected: "No team selected."
+  team-updated: "{team} {item} set."
+  team-cleared: "{team} {item} cleared."
+  team-tools-given: "Team setup tools given for {team}."
+  team-item-spawn: "spawn"
+  team-item-bed: "bed"
+  team-item-generator: "base generator"
+  team-item-shop: "shop NPC"
+  
+  # WorldEdit messages
+  use-worldedit-wand: "Use wooden axe (//wand) to select map area."
+  worldedit-input-ok: "After selection, type: ok"
+  worldedit-selection-get: "Cannot get WorldEdit selection!"
+  worldedit-selection-ensure: "Make sure you used //wand and selected two points."
+  
+  # Bounds setup
+  bounds-pos1: "First point set."
+  bounds-pos1-stand: "Now stand at opposite corner and type: pos2"
+  bounds-pos2: "Second point set."
+  bounds-set: "Arena bounds set!"
+  bounds-mismatch: "Map config lost, please retry."
+  bounds-input: "Input method"
+  bounds-error: "Type 'pos2' to set second point, or 'cancel' to quit."
+  
+  # Mode selection
+  mode-4team: "Set to 4-team mode (Squad)"
+  mode-8team: "Set to 8-team mode (Solo)"
+  
+  # Map management
+  create-map-input: "Type the map name in chat."
+  rename-map-input: "Type the new map name in chat."
+  delete-map-input: "Type DELETE to confirm map deletion: "
+  
+  # Region size
+  region-size: "Region size"
+  blocks: "blocks"
+  auto-restore: "Map will auto-restore this area after game ends."
+
+# Validation messages
+validation:
+  incomplete: "Map config incomplete:"
+  cannot-start: "Map config invalid. Cannot start game."
+  missing-team: "Missing team config: {team}"
+  spawn-missing: "{team} spawn not set"
+  bed-missing: "{team} bed not set"
+  generator-missing: "{team} base generator not set"
+  shop-missing: "{team} shop NPC not set"
+  diamond-min: "At least {count} diamond generators required"
+  emerald-min: "At least {count} emerald generators required"
+
+# Game Messages
+game:
+  # Game status
+  waiting: "Waiting"
+  countdown: "Game starting"
+  in-game: "In game"
+  ended: "Game ended"
+  
+  # Player messages
+  joined: "joined game"
+  left: "left game"
+  team-full: "Team is full"
+  
+  # Event messages
+  bed-destroyed: "'s bed was destroyed!"
+  team-eliminated: "Team eliminated!"
+  sudden-death: "Sudden Death! All beds removed!"
+  game-over: "Game over!"
+  winner: "Winner"
+  
+  # Killstreak messages
+  killstreak-2: "2 killstreak!"
+  killstreak-5: "5 killstreak!"
+  killstreak-10: "10 killstreak!"
+  
+  # Upgrade messages
+  diamond-gen-upgrade: "Diamond Generator Upgraded"
+  emerald-gen-upgrade: "Emerald Generator Upgraded"
+
+# List and Title Text
+misc:
+  status: "Status"
+  active: "Active"
+  click-to-edit: "Click to edit"
+  unknown: "Unknown"
+
+# Queue messages
+queue:
+  need-players: "Need {count} more players"
